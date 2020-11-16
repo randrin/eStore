@@ -1,0 +1,24 @@
+{
+  "name": "estore",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Store Products to public",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randrin/eStore.git"
+  },
+  "author": "Randrin Nzeukang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randrin/eStore/issues"
+  },
+  "homepage": "https://github.com/randrin/eStore#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
